@@ -24,10 +24,3 @@
         %td= link_to "More about #{movie.title}", movie_path(movie)
 
 = link_to 'Add new movie', new_movie_path
-
--#= debug(@selectedRatings)
--#= debug(@movies)
--#= debug(@selectedRatings)
--if !session[:savedSortVal].nil?
-  = debug(session[:savedSortVal])
-=debug(@sort)
